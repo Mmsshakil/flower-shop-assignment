@@ -120,7 +120,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    border-radius: 8px;
+    border-radius: 3px;
     background: rgba(39, 39, 39, 0.05);
     margin: 128px 320px;
     /* padding: 50px; */
@@ -190,4 +190,58 @@ body {
     width: 220px;
     height: 270px;
     margin-right: 15px;
+}
+
+
+/* latest-deal start */
+
+.latest-deal {
+
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px 285px 128px 285px;
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-size: cover;
+
+}
+
+.latest-des {
+    padding-bottom: 30px;
+}
+
+
+.latest-deal-tytle {
+    padding-top: 55px;
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.latest-detail-about {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.latest-deal>input {
+    border-radius: 3px;
+    width: 400px;
+    height: 42px;
+    border: 0px;
+    margin-bottom: 70px;
+    margin-right: 7px;
+    padding-left: 15px;
+
+}
+
+.latest-deal-btn {
+    border-radius: 3px;
+    border: 0px;
+    background: #E55473;
+    padding: 10px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+
 }
