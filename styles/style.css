@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .banner {
     background-color: rgba(229, 84, 115, 0.10);
     padding: 50px 240px 0px 240px;
@@ -17,7 +22,6 @@
 
 .banner-title {
     color: #272727;
-    font-family: Lato;
     font-size: 70px;
     font-weight: 800;
     margin-bottom: 30px;
@@ -26,7 +30,6 @@
 
 .banner-detail {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
@@ -40,7 +43,28 @@
     padding: 20px 43px;
 
     color: #FFF;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 700;
+}
+
+
+/* feature section start */
+.feature-head {
+    text-align: center;
+    margin-top: 70px;
+    padding: 50px 500px;
+
+}
+
+.feature-tytle {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.feature-detail {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
 }
