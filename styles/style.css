@@ -245,3 +245,36 @@ body {
     font-weight: 500;
 
 }
+
+
+/* footer start */
+
+.footer {
+    text-align: center;
+    background-color: #111010;
+    padding: 100px 500px;
+}
+
+.footer-tytle {
+    font-size: 30px;
+    font-weight: 800;
+    color: #E55473;
+    margin-bottom: 13px;
+}
+
+#shop {
+    color: #FFF;
+}
+
+.footer-detail {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 15px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 13px;
+    font-weight: 400;
+}
