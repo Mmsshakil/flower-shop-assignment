@@ -113,3 +113,31 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/* feature icon part start */
+
+.feature-icons {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 320px;
+    /* padding: 50px; */
+}
+
+.feature-icon-part {
+    padding: 50px;
+}
+
+.feature-icon-img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.feature-img-detail {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 14px;
+    font-weight: 600;
+}
