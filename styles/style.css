@@ -58,7 +58,7 @@ body {
 
 .feature-tytle {
     color: #272727;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     margin-bottom: 24px;
 }
@@ -140,4 +140,37 @@ body {
     color: rgba(39, 39, 39, 0.80);
     font-size: 14px;
     font-weight: 600;
+}
+
+
+/* hot deal start */
+
+.hotdeal {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    background: rgba(229, 84, 115, 0.05);
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hotdeal-detail {
+    text-align: center;
+    margin: 180px 0px 180px 300px;
+}
+
+#off {
+    color: #E55473;
+}
+
+.hotdeal-detail-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.hotdeal-img {
+    padding: 100px 350px 100px 0px;
 }
