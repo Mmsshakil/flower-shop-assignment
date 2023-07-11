@@ -179,7 +179,7 @@ body {
 /* instagram start */
 .insta {
     text-align: center;
-    margin-bottom: 128px;
+    margin-bottom: 100px;
 }
 
 .insta-detail {
@@ -200,7 +200,7 @@ body {
     justify-content: center;
     text-align: center;
     border-radius: 8px;
-    margin: 0px 285px 128px 285px;
+    margin: 120px 285px 128px 285px;
     background-image: url("../Flower Asset/Rectangle\ 9.png");
     background-size: cover;
 
@@ -277,4 +277,39 @@ body {
     color: rgba(255, 255, 255, 0.40);
     font-size: 13px;
     font-weight: 400;
+}
+
+
+/* special feature start */
+
+.special-feature {
+    background: rgba(39, 39, 39, 0.05);
+    padding-bottom: 25px;
+    margin-bottom: 70px;
+}
+
+.special-feature-head {
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px 500px;
+
+}
+
+
+.special-feaut-img {
+    /* border-radius: 300px 300px 0px 0px; */
+    background-size: cover;
+    width: 135px;
+    height: 220px;
+    padding: 75px 65px 0px 65px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.special-img-name {
+    color: #272727;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 35px;
 }
